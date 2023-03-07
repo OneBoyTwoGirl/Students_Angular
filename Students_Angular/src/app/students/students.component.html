@@ -1,0 +1,49 @@
+<!-- /*
+* File: students.component.html
+// * Author: Serényi Ödön
+// * Copyright: 2023,  Serényi Ödön
+// * Group: Szoft II N
+// * Date: 2023-03-07
+// * Github: https://github.com/OneBoyTwoGirl/
+// * Licenc: GNU GPL
+*/ -->
+
+<h2 class="text-center">Tanulók adatai</h2>
+
+<div class="container ">
+        <div class="studentsTable mt-4 m-2">
+            <table class="table table-striped" >
+                <thead>
+                    <th>ID</th>
+                    <th>Név</th>
+                    <th>Nem</th>
+                    <th>Osztály</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let student of students">
+                        <td>{{student.id}}</td>
+                        <td>{{student.name}}</td>
+                        <td>{{student.gender}}</td>
+                        <td>{{student.group}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="scoresTable mt-4 m-2">
+            <table class="table table-striped">
+                <thead>
+                    <th>ID</th>
+                    <th>Pont</th>
+                    <th>Diák Id</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let score of scores">
+                        <td>{{score.id}}</td>
+                        <td>{{score.score}}</td>
+                        <td>{{score.studentId}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>

@@ -1,0 +1,29 @@
+// <!-- /*
+// * File: about.component.scss
+// * Author: Serényi Ödön
+// * Copyright: 2023,  Serényi Ödön
+// * Group: Szoft II N
+// * Date: 2023-03-07
+// * Github: https://github.com/OneBoyTwoGirl/
+// * Licenc: GNU GPL
+// * Licenc: GNU GPL
+// */ -->
+
+.about{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+.card{
+    padding: 20px;
+    width: 550px;
+    height: 200px;
+    justify-content: center;
+    background-color: rgba(yellow);
+    box-shadow: 0 10px 20px rgb(black);
+    border: none;
+    border-radius: 10px;
+
+}

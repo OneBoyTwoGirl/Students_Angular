@@ -1,0 +1,53 @@
+// <!-- /*
+// * Author: Serényi Ödön
+// * Copyright: 2023,  Serényi Ödön
+// * Group: Szoft II N
+// * Date: 2023-03-07
+// * Github: https://github.com/OneBoyTwoGirl/
+// * Licenc: GNU GPL
+// */ -->
+
+.studentsTable{
+    display: flex;
+    width: 500px;
+    background-color: rgba(orange);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgb(black);
+
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    margin-top: 50px;
+    text-transform:uppercase;
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+
+.scoresTable{
+    display: flex;
+    background-color: rgb(white);
+    box-shadow: 0 10px 20px rgb(black);
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scoresTable table{
+    width: 200px;
+
+}

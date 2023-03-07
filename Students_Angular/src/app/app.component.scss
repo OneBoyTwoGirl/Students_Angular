@@ -1,0 +1,36 @@
+// <!-- /*
+// * File: app.component.scss
+// * Author: Serényi Ödön
+// * Copyright: 2023,  Serényi Ödön
+// * Group: Szoft II N
+// * Date: 2023-03-07
+// * Github: https://github.com/OneBoyTwoGirl/
+// * Licenc: GNU GPL
+// */ -->
+
+
+.container{
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                5px 5px 5px rgba(0, 0, 0,0.05),
+                -5px -5px 5px rgba(255, 255, 255, 0.5);
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-style: none;
+    font-family: bejamin;
+}
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(124, 104, 255);
+}
+a:active{
+    color: rgb(124, 104, 255);
+}
+
